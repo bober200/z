@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+input{
+    margin: 10px 0;
+    padding: 10px;
+   
+
+
+}
+button{
+    padding: 10px;
+    background: grey;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    margin: 10px 0;
+
+}
+.logout{
+    color: red;
+    text-align: center;
+}
